@@ -1,4 +1,2 @@
-# version 1.0
-# add Hello World C program , gitignore and README.md
-
-
+# version 2.0
+# 增加键盘输入功能
