@@ -8,6 +8,7 @@ build/
 *.hex
 *.map
 *.a
+*.exe
 
 # 临时文件
 *.swp
