@@ -63,5 +63,5 @@ void loop() {
   
 
   startTime = millis();
-  while(millis() - startTime < 2000);
+  while(millis() - startTime < 4000);
 }
