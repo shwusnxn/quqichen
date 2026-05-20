@@ -16,4 +16,14 @@ void loop() {
   digitalWrite(ledPin, LOW);   // 熄灭LED
   Serial.println("LED OFF");   // 串口输出提示
   delay(1000);                 // 保持1秒
+  // SOS 示例思路
+  // S: 短闪3次
+  for(int i=0; i<3; i++) { digitalWrite(ledPin, HIGH); delay(200); digitalWrite(ledPin, LOW); delay(200); }
+  delay(500); // 字母间隔
+  // O: 长闪3次
+  for(int i=0; i<3; i++) { digitalWrite(ledPin, HIGH); delay(600); digitalWrite(ledPin, LOW); delay(200); }
+  delay(500);
+  // S: 短闪3次
+  for(int i=0; i<3; i++) { digitalWrite(ledPin, HIGH); delay(200); digitalWrite(ledPin, LOW); delay(200); }
+  delay(2000); // 单词间隔
 }
