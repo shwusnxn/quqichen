@@ -2,10 +2,10 @@
 
 // WiFi 配置
 //const char* ssid = "你的WiFi名";
-const char* ssid = "iQOO Z9 Turbo";
+const char* ssid = "贝林厄姆";
 
 //const char* password = "你的WiFi密码";
-const char* password = "1564922632";
+const char* password = "quqichen1";
 WiFiServer server(80);
 
 const int ledPin = 2;          // 板载 LED，可根据实际修改
